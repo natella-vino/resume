@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Резюме</title>
+    <link media="screen" type="text/css" href="css/style.css" rel="stylesheet" />
+    <link href="css/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+    <script src="js/jquery-1.8.0.js"></script>
+    <script src="js/task.js"></script>
+    <script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navigation">
+                <div class="nav">
+                    <ul class="menu">
+                        <li class="first-item"><a href='#cnt_cmn'>Общие сведения</a> </li>
+                        <li><a href='#cnt_edu'>Образование</a> </li>
+                        <li><a href='#cnt_exp'>Опыт разработки</a> </li>
+                        <li><a href='#cnt_task'>Задание</a> </li>
+                        <li class='last-item'><a href='#cnt_cntc'>Контакты</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="main">
+                <div id="cnt_cmn">
+                    <h2>
+                        Виноградова Наталья Юрьевна
+                    </h2>
+                    <p>
+                        25 лет
+                    </p>
+                    <p>
+                        г. Москва
+                    </p>
+                </div>
+                <div id="cnt_edu" >
+                    <h2>
+                        Казанский Государственный Университет им.
+                    </h2>
+                    <p>
+                        2010 г. ф-т Вычислительной Математики и Кибернетики(вечернее отд.)
+                    </p>
+                </div>
+                <div id="cnt_exp" >
+                    <h2>
+                        Опыт разработки
+                    </h2>
+                    <div>
+                        <strong>2012 г. ООО "Бронни.ру"</strong><br />
+                        <ul>
+                            <li>
+                                Отображение результатов поиска и статистики по Тур операторам
+                            </li>
+                            <li>
+                                Поиск речных круизов
+                            </li>
+                            <li>
+                                Слайдер туров
+                            </li>
+                         </ul>
+                    </div>
+                    <div>
+                        <strong>2009 г. ЗАО "РИН"</strong>
+                        <ul>
+                            <li>
+                                разработка web приложений на perl
+                            </li>
+                            <li>
+                                работа с базой данных mysql
+                             </li>
+                             <li> 
+                                создание раздела индивидуальной психологической помощи на сайте psy.rin.ru
+                                (администраторское место ,регистрация,авторизация,личный кабинет системы оплаты WebMoney,PayOut,SmsCoin)
+                              </li>
+                              <li> 
+                                 участие в разработке проектов компании: artecoart.ru, health.rin.ru, maps.rin.ru
+                              </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="cnt_task">
+                    <h2>Задание</h2>
+                    <div id="tabs">
+                    <ul class="tabs">
+                        <li><a href="#tabs-1">Вопрос №1</a></li>
+                        <li><a href="#tabs-2">Вопрос №2</a></li>
+                        <li><a href="#tabs-3">Вопрос №3</a></li>
+                        <li><a href="#tabs-4">Вопрос №4</a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <strong>
+                            Перечислите известные вам инструменты и приёмы для отладки кода в разных браузерах. </strong>
+                        <p>
+                            Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec
+                            arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante.
+                            Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper
+                            leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales
+                            tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel
+                            pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum.
+                            Nunc tristique tempus lectus.</p>
+                    </div>
+                    <div id="tabs-2">
+                        <strong>
+                                Опишите своими словами, что происходит в браузерах при клике на ссылку yandex.ru.
+                        </strong>
+                      
+                        <p>
+                            Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra
+                            massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget
+                            luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean
+                            aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent
+                            in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat
+                            nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque
+                            convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod
+                            felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                    </div>
+                    <div id="tabs-3">
+                       <strong>
+                               Предположим, что мы представляем автосалон по продаже японских и немецких автомобилей.
+                               У нас есть базовые классы и примеры их использования. Допишите недостающий код.
+                       </strong>
+                       <p>
+                            <a href="js/task.js">Релиализация задачи</a>
+                        </p>
+                    </div>
+                    <div id="tabs-4">
+                      <strong>
+                             Расскажите, в каком объёме и при каких обстоятельствах вы изучали следующие темы: языки программирования 
+                             (императивные/декларативные, разные системы типов), структуры (классы, структуры данных, примитивные типы),
+                             парадигмы (события, ООП, параллельность/асинхронность, кеширование), алгоритмы (парсинг, сортировка, поиск), 
+                             паттерны.
+                      </strong>
+                      <p>
+                            Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam
+                            ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing
+                            velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula
+                            faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero
+                            sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor
+                            ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas
+                            commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit
+                            hendrerit.
+                     </p>
+                    </div>
+                </div>
+                </div>
+                <div id="cnt_cntc">
+                    <h2>
+                        Контакты
+                    </h2>
+                </div>
+                
+            </div>
+        </div>
+   </div>
+   <div class="footer">SmartDuck © 2012</div>
+</body>
+</html>
